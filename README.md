@@ -44,3 +44,4 @@ This data is then provided to the customer after the processing is done.
 1. An algorithm to make sure that the farmer's produce is sold before it gets rots out. A review-based system to make sure that proper quality is maintained.
 2. Add a private key method to identify distinct sensors to make sure that the sensor data is correctly identified and linked to the particular user's order.
 3. Better local discovery to make sure that the nearby farmers are preferred over those far off to make sure that the order reaches in optimal time.
+gfxuyioiyfgxyiuopyidfxgtiuyo9u8tiudyfgiuopiioguh
