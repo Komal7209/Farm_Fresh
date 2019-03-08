@@ -5,3 +5,6 @@ Prototype
 2.Django
 3.Setting up final website
 4. Hardware implementation
+
+
+/* add arduino using sensors to calculate freshness and expiry date and communicate with the django server to update changes.*/
