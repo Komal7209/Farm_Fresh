@@ -12,3 +12,16 @@ Prototype and technologies used:
 2. Support locals by giving them provisions for selling their own fruits and vegetables and supporting kitchen gardening.
 3. Promoting usage of organic products.
 4. Using applications of IoT to get the estimated quality of fruits and vegetables during shipping.
+
+#Technologies Used
+1. Arduino AtMega 328
+2. NodeMCU esp8266 based development board
+3. Arduino IDE
+4. Esp8266 AT firmware
+5. Django
+6. HTML 5
+7. CSS 3
+8. Bootstrap 3
+9. Java Script
+
+#
