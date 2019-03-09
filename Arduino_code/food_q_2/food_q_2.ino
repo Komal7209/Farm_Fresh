@@ -53,14 +53,7 @@ void loop()
 void esp_8266()
 {
   String cmd="AT+CIPSTART=0,\"TCP\",\"192.168.43.210\",8000";
-  ser.println(cmd);
   Serial.println(cmd);
-
-  if(ser.find("Error"))
-    {
-      Serial.println("AT+CIPSTART error");
-      return;
-    }
 
   String getStr="GET /update/?d1=";
   getStr+=String(temp);
@@ -70,13 +63,10 @@ void esp_8266()
   getStr+=String(gas_read);
   cmd = "AT+CIPSEND=0,";
   cmd += String(getStr.length());
-  ser.println(cmd);
   Serial.println(cmd);
   delay(1000);
-  ser.print(getStr);
   Serial.println(getStr);
   delay(1000);
-  ser.println("AT+CIPCLOSE=0");
   Serial.println("AT+CIPCLOSE=0");
   delay(1000);
 }
