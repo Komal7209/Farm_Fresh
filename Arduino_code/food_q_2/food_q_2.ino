@@ -1,4 +1,3 @@
-#include <SoftwareSerial.h>
 #include <LiquidCrystal.h>
 #include <Adafruit_Sensor.h>
 #include "DHT.h"
@@ -16,8 +15,6 @@ char data = 0;
 int gas_read = 0;
 float temp;
 float hum;
-
-SoftwareSerial ser(12,13); // RX, TX
 
 void setup()
 {
