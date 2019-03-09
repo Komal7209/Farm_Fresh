@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="icon" href="./img/icon.png">
+  </head>
+  <body>
+    <link rel="stylesheet" href="Login_Page.css">
+    <div class="login-page">
+      <div class="form">
+        <form class="register-form">
+          <input type="text" placeholder="name"/>
+          <input type="password" placeholder="password"/>
+          <input type="text" placeholder="email address"/>
+          <button>create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button>login</button>
+          <p class="message">Not registered? <a href="./Signup_page.html">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+    </script>
+
+  </body>
+</html>
