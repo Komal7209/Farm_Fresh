@@ -25,7 +25,7 @@
     -ms-user-select: none;
     user-select: none;
     white-space: nowrap;
-    width: auto;
+    width:auto;
 }
 
 .nice-select:hover {
@@ -162,7 +162,7 @@
 
 .nice-select .option:hover,
 .nice-select .option.focus,
-.nice-select .option.selected.focus {
+/* .nice-select .option.selected.focus { */
     background-color: #f6f6f6;
 }
 
