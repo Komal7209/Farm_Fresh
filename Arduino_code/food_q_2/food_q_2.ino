@@ -1,4 +1,3 @@
-#include <LiquidCrystal.h>
 #include <Adafruit_Sensor.h>
 #include "DHT.h"
 
