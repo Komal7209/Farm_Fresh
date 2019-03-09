@@ -3,7 +3,6 @@
 #include <Adafruit_Sensor.h>
 #include "DHT.h"
 
-LiquidCrystal lcd(10, 9, 5, 4, 3, 2);
 
 #define DHTTYPE DHT11
 #define DHT11_PIN 8
@@ -25,12 +24,6 @@ void setup()
   //ser.begin(115200);
 
   dht.begin();
-  
-  lcd.begin(16,2);
-  lcd.setCursor(1,0);
-  lcd.print("**SmarT FooD**");
-  lcd.setCursor(3,1);
-  lcd.print("MonitorinG");
 
   Serial.begin(115200); 
 
@@ -53,33 +46,9 @@ void setup()
 
 void loop()
 {
-  lcd.clear();
-
-  lcd.setCursor(0,0);
-  lcd.setCursor(4,0);
-
-  lcd.setCursor(0,1);
-  lcd.print("MQ3-");
   gas_read = analogRead(MQ3_PIN);
-  lcd.setCursor(4,1);
-  lcd.print(gas_read);
-
-  //int chk = dht.read11(DHT11_PIN);
-  //Serial.print("Temperature = ");
   temp = dht.readTemperature();
-  //lcd.clear();
-  lcd.setCursor(8,0);
-  lcd.print("Tem-");
-  lcd.setCursor(12,0);
-  lcd.print(temp);
-  //Serial.println(temp);
-  //Serial.print("Humidity = ");
   hum = dht.readHumidity();
-  lcd.setCursor(8,1);
-  lcd.print("Hum-");
-  lcd.setCursor(12,1);
-  lcd.print(hum);
-  //Serial.println(hum);
 
   esp_8266();
 }
@@ -112,6 +81,5 @@ void esp_8266()
   delay(1000);
   ser.println("AT+CIPCLOSE=0");
   Serial.println("AT+CIPCLOSE=0");
-  delay(10000);
+  delay(1000);
 }
-
