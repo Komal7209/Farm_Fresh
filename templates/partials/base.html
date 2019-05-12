@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Google font -->
+ 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+ 		<!-- Bootstrap -->
+ 		<link type="text/css" rel="stylesheet" href="{% static 'site/css/bootstrap.min.css' %}"/>
+
+
+
+ 		<!-- Font Awesome Icon -->
+ 		<link rel="stylesheet" href="{% static 'site/css/font-awesome.min.css' %}">
+{# 		<link rel="stylesheet" href="{% static 'site/Login_Page.css' %}">#}
+{# 		<link rel="stylesheet" href="{% static 'site/Signup_Page.css' %}">#}
+ 		<link rel="stylesheet" href="{% static 'site/style.css' %}">
+
+ 		<!-- Custom stlylesheet -->
+{# 		<link type="text/css" rel="stylesheet" href="{% static 'site/css/style.css' %}"/>#}
+
+
+</head>
+<body>
+{% include 'partials/_header.html' %}
+{% block content %}
+
+{% endblock %}
+{% include 'partials/_footer.html' %}
+<script src="{% static 'site/js/jquery.min.js' %}"></script>
+		<script src="{% static 'site/js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'site/js/slick.min.js' %}"></script>
+		<script src="{% static 'site/js/nouislider.min.js' %}"></script>
+		<script src="{% static 'site/js/jquery.zoom.min.js' %}"></script>
+		<script src="{% static 'site/js/main.js' %}"></script>
+
+</body>
+</html>
