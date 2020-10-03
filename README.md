@@ -1,4 +1,8 @@
 # Farm_Fresh
+
+https://github.com/Komal7209/Farm_Fresh/blob/master/FrontEnd/farmfresh/home.html
+
+
 # Synopsis
 Goal-Revolutionary Website which not only facilitate direct contact between end user and producer but also with details with indications of time left for consumption of that edible. It’s for promoting the kitchen farming and business management for farmers.
 Prototype and technologies used:
