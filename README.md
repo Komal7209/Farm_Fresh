@@ -2,7 +2,10 @@
 
 https://github.com/Komal7209/Farm_Fresh/blob/master/FrontEnd/farmfresh/home.html
 
-It was my first project with the team which I wanted to initiate as a startup
+It was my first project with the team which I wanted to initiate as a startup and some key points learnt during this stage regarding startup were: </br>
+1. You are the not only one who could have same idea (There could be various others in market, so you need to search prior for such things before hand **intensively**) </br>
+2. There are various things which add up to uniquesness of your startup idea, its all focused on the stage of initial research regarding competition in the market. </br>
+3. Wisely calculate your costs beforehand regarding hardware requirements (As our startup idea used hardware) </br>
 
 
 # Synopsis
